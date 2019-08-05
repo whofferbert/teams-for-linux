@@ -1,4 +1,4 @@
-/* global angular */
+/* global angular, window */
 (function () {
 	const path = require('path');
 	const { ipcRenderer, remote } = require('electron');
