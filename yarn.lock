@@ -651,11 +651,6 @@ electron-publish@21.2.0:
     lazy-val "^1.0.4"
     mime "^2.4.4"
 
-electron-safe-ipc@^0.6.1:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/electron-safe-ipc/-/electron-safe-ipc-0.6.1.tgz#5e12da7db506531238c07270cce2908790dbcf83"
-  integrity sha1-XhLafbUGUxI4wHJwzOKQh5Dbz4M=
-
 electron-window-state@5.0.3:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/electron-window-state/-/electron-window-state-5.0.3.tgz#4f36d09e3f953d87aff103bf010f460056050aa8"

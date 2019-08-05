@@ -26,7 +26,6 @@ function selectSource(callback) {
 		pathname: require('path').join(__dirname, 'captureSelector.html')
 	});
 
-	selectorWindow.openDevTools();
 	selectorWindow.on('close', () => callback());
 	selectorWindow.on('chooseDesktopMedia', callback);
 	selectorWindow.loadURL(url);
