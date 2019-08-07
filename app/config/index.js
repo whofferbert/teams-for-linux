@@ -88,7 +88,7 @@ function getConfigFile(configPath) {
 	try {
 		return require(path.join(configPath, 'config.json'));
 	} catch (e){
-		console.warn('Failed to get the config file', e);
+		console.warn('Failed to get the config file');
 		return {};
 	}
 }

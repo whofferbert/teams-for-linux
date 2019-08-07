@@ -98,8 +98,6 @@ function createWindow() {
 		},
 	});
 
-	console.log("path", path.join(__dirname, '..', 'browser', 'index.js'));
-
 	windowState.manage(window);
 	window.eval = global.eval = function () { // eslint-disable-line no-eval
 		throw new Error('Sorry, this app does not support window.eval().');
