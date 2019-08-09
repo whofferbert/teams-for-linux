@@ -49,7 +49,7 @@
 
 	function enableChromeVideoAudioMeetings(injector) {
 		injector.get('callingSupportService').oneOnOneCallingEnabled = true;
-		injector.get('callingSupportService').isDesktopApp	 = true;
+		injector.get('callingSupportService').isDesktopApp = true;
 		injector.get('callingSupportService').isChromeMeetingSingleVideoEnabled = true;
 		injector.get('callingSupportService').isChromeVideoOneOnOneEnabled = true;
 		injector.get('callingSupportService').isChromeVideoMultipartyEnabled = true;

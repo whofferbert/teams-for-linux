@@ -95,6 +95,7 @@ function createWindow() {
 			nativeWindowOpen: true,
 			plugins: true,
 			nodeIntegration: false,
+			nodeIntegrationInWorker: true
 		},
 	});
 
